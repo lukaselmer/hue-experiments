@@ -1,0 +1,21 @@
+{
+  "name": "hue-experiments",
+  "version": "1.0.0",
+  "description": "Hue Experiments",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukas Elmer <lukas.elmer@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-hue-api": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/node-hue-api": "^2.3.0",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
